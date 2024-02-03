@@ -3,7 +3,7 @@ name: Lint Awesome List
 on: [push, pull_request]
 jobs:
   lint:
-    name: Lint
+    name: Lint-Lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
